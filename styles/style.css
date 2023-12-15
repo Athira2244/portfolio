@@ -1,0 +1,142 @@
+:root {
+  --background-color: #222629;
+  --subheading-color: #61892f;
+  --heading-color: #86c232;
+  --text-color: #ffffff;
+  --card-bg: #222529;
+  --navbarIcon-color: #f3f3ef;
+  --navbar-color: #222629;
+}
+.light-theme {
+  --background-color: #f6f6f2;
+  --subheading-color: #6fb3b8;
+  --heading-color: #388087;
+  --text-color: #004a5b;
+  --card-bg: #f3f3ef;
+  --navbar-color: #222529;
+  --navbarIcon-color: #f6f6f2;
+}
+
+h1,
+h2,
+i,
+a {
+  color: var(--heading-color) !important;
+}
+
+h3 {
+  color: var(--subheading-color) !important;
+}
+
+h4,
+p,
+span {
+  color: var(--text-color) !important;
+}
+.service .card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+/* ---NAVBAR--- */
+
+header {
+  background-color: var(--background-color);
+}
+
+.navbar .navbar-toggler {
+  background-color: var(--navbarIcon-color) !important;
+  color: var(--navbar-color);
+}
+.navbar-nav .nav-link {
+  color: var(--heading-color);
+  cursor: pointer;
+}
+.navbar-nav .nav-link:hover {
+  color: var(--subheading-color);
+}
+.navbar-nav .nav-item i {
+  color: var(--heading-color);
+}
+
+/* ----END OF NAVBAR--- */
+
+/* ----LANDING--- */
+
+.landing {
+  background-color: var(--background-color);
+}
+.landing p {
+  color: var(--text-color) !important;
+}
+
+.text button:hover {
+  background-color: var(--subheading-color) !important;
+}
+/* ----END OF LANDING--- */
+
+/* ---ABOUT--- */
+.about {
+  background-color: var(--background-color);
+}
+.about p {
+  color: var(--text-color) !important;
+}
+
+.progress {
+  width: 50%;
+}
+.certificate {
+  width: 25%;
+}
+
+/* ---END OF ABOUT--- */
+
+/* ---SERVICES--- */
+.service {
+  background-color: var(--background-color);
+}
+
+/* ---END OF SERVICES--- */
+/* ---PORTFOLIO--- */
+.portfolio {
+  background-color: var(--background-color);
+}
+/* --- END OF PORTFOLIO--- */
+/* ---CONTACT--- */
+.contact {
+  background-color: var(--background-color);
+}
+/* --- END OF CONTACT--- */
+/* --- FOOTER--- */
+.footer {
+  background-color: var(--background-color);
+}
+/* --- END OF FOOTER--- */
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 992px) {
+  .landing .image1 {
+    width: 100% !important;
+  }
+  .text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .text h4 {
+    margin-top: 20px;
+  }
+  .progress {
+    width: 100% !important;
+  }
+  .education .highschool {
+    border: none !important;
+    border-bottom: 1px solid white !important;
+  }
+  .certificate {
+    width: 90% !important;
+  }
+  .table tbody {
+    background-color: var(--background-color) !important;
+  }
+}
