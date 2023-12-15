@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--------------- NAVBAR ----------------------->
+
+    <header class="top-0 start-0 position-sticky z-3 shadow" id="headers">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav nav-underline mx-auto text-center">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#portfolios">Portfolio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contactMe">Contact</a>
+              </li>
+              <li class="nav-item">
+                <i
+                  class="bi bi-moon-fill fs-4"
+                  id="theme "
+                  onclick=" toggleTheme()"
+                  style="cursor: pointer"
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!---------------END OF NAVBAR ----------------------->
+    <!--------------- MAIN ----------------------->
+
+    <!--------------- HOME ----------------------->
+    <main>
+      <section
+        class="landing w-100 text-center"
+        style="padding: 15% 0"
+        id="home"
+      >
+        <div class="text">
+          <h1 class="display-4 fw-bolder">I'M ATHIRA K S</h1>
+          <h4 class="display-6">FULL STACK DEVELOPER</h4>
+          <button class="btn btn-success px-3 my-4">
+            <a
+              href="./assets/images/resumeimage.jpeg"
+              class="text-white text-decoration-none"
+              download="ATHIRA K S - RESUME"
+            >
+              Resume<i class="bi bi-download mx-2 text-white"></i
+            ></a>
+          </button>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/athira-k-s-a25302278"
+              ><i class="bi bi-linkedin fs-5 mx-2"></i
+            ></a>
+
+            <a href="https://github.com/Athira2244/"
+              ><i class="bi bi-github fs-5 mx-2"></i
+            ></a>
+            <a href="mailto:athirakolathery2002@gmail.com"
+              ><i class="bi bi-envelope fs-5 mx-2"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!---------------END OF HOME ----------------------->
+      <!---------------ABOUT ----------------------->
+      <section class="about w-100" id="about">
+        <div class="container text-center">
+          <h1 class="pt-5">ABOUT</h1>
+          <div class="row w-100 mt-5 align-items-center text-center">
+            <div class="col-lg-6">
+              <h2 class="display-6 fw-bolder text-center">
+                Full Stack Developer
+              </h2>
+              <p class="fs-5">
+                My name is ATHIRA K S. Have vast array of knowledge in both
+                front end and back end development. Currently working as a
+                PYTHON FULL STACK DEVELOPER Trainee.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <table
+                class="table border-none border-dark table-dark mt-5 table-hover"
+              >
+                <tbody>
+                  <tr>
+                    <th>Name</th>
+                    <td>ATHIRA K S</td>
+                  </tr>
+                  <tr>
+                    <th>Birthday</th>
+                    <td>03-11-2002</td>
+                  </tr>
+                  <tr>
+                    <th>Age</th>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <th>Degree</th>
+                    <td>BCA (UG)</td>
+                  </tr>
+                  <tr>
+                    <th>Phone</th>
+                    <td>+91 9778326311</td>
+                  </tr>
+                  <tr>
+                    <th>Email</th>
+                    <td>athirakolathery2002@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <th>City</th>
+                    <td>Ernakulam , Kerala</td>
+                  </tr>
+                  <tr>
+                    <th>Freelance</th>
+                    <td>Available</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="container skills text-center my-5">
+          <h1>SKILLS</h1>
+          <h4 class="mt-4 fs-6">HTML</h4>
+          <div class="progress my-3 d-block mx-auto">
+            <div
+              class="progress-bar"
+              style="
+                width: 95%;
+                background-color: var(--heading-color);
+                color: black;
+              "
+            >
+              95%
+            </div>
+          </div>
+          <h4 class="fs-6">CSS</h4>
+          <div class="progress my-3 d-block mx-auto">
+            <div
+              class="progress-bar"
+              style="
+                width: 85%;
+                background-color: var(--heading-color);
+                color: black;
+              "
+            >
+              85%
+            </div>
+          </div>
+          <h4 class="fs-6">BOOTSTRAP</h4>
+          <div class="progress my-3 d-block mx-auto">
+            <div
+              class="progress-bar"
+              style="
+                width: 85%;
+                background-color: var(--heading-color);
+                color: black;
+              "
+            >
+              85%
+            </div>
+          </div>
+          <h4 class="fs-6">JAVASCRIPT</h4>
+          <div class="progress my-3 d-block mx-auto">
+            <div
+              class="progress-bar"
+              style="
+                width: 80%;
+                background-color: var(--heading-color);
+                color: black;
+              "
+            >
+              85%
+            </div>
+          </div>
+          <h4 class="fs-6">PYTHON</h4>
+          <div class="progress my-3 d-block mx-auto">
+            <div
+              class="progress-bar"
+              style="
+                width: 80%;
+                background-color: var(--heading-color);
+                color: black;
+              "
+            >
+              85%
+            </div>
+          </div>
+        </div>
+        <!---------------EDUCATION ----------------------->
+        <div class="container">
+          <div class="row education">
+            <h1 class="text-center mt-5">Education</h1>
+            <div class="col-lg-6 my-5 text-center border-end highschool">
+              <h4>High School Education (10th)</h4>
+              <h4 class="my-3 fs-5">Smhss Cherai</h4>
+              <button
+                disabled
+                class="rounded my-3 text-dark bg-success-subtle fw-bolder"
+              >
+                2017-2018
+              </button>
+              <h4>Higher Secondary Education</h4>
+              <h4 class="my-3 fs-5">Smhss Cherai</h4>
+              <button
+                disabled
+                class="rounded mt-3 mb-5 text-dark bg-success-subtle fw-bolder"
+              >
+                2018-2020
+              </button>
+            </div>
+            <div class="col-lg-6 text-center my-5">
+              <h4>Bachelor Of Computer Application</h4>
+              <h4 class="my-3 fs-5">Al Ameen College Edathala , Aluva</h4>
+              <button
+                disabled
+                class="rounded my-3 text-dark bg-success-subtle fw-bolder"
+              >
+                2020-2023
+              </button>
+              <h4>Python Full Stack Development Course</h4>
+              <h4 class="my-3 fs-5">Quest Innovative Solution , Kochi</h4>
+              <button
+                disabled
+                class="rounded my-3 text-dark bg-success-subtle fw-bolder"
+              >
+                2023-2024
+              </button>
+            </div>
+          </div>
+        </div>
+        <!---------------END OF EDUCATION ----------------------->
+        <!---------------CERTIFICATES ----------------------->
+        <h1 class="text-center mt-5 mb-3">CERTIFICATES</h1>
+        <div
+          id="mycarousal"
+          class="carousel slide certificates d-block mx-auto certificate"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner mt-5 pb-5">
+            <div class="carousel-item active">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-black">Cyber Ethics</h5>
+              </div>
+              <img
+                src="./assets/images/cyber ethics.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-black">Python Workshop</h5>
+              </div>
+              <img
+                src="./assets/images/python.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#mycarousal"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#mycarousal"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!---------------END OF CERTIFICATES ----------------------->
+
+      <!---------------END OF ABOUT ----------------------->
+      <!---------------SERVICES ----------------------->
+      <section class="service pb-5" id="services">
+        <h1 class="text-center pt-5">SERVICES</h1>
+        <div
+          class="container d-lg-flex gap-2 d-grid justify-content-center mt-5"
+        >
+          <div class="card mx-2 shadow w-lg-50">
+            <div class="card-body border-none">
+              <h2 class="card-subtitle my-3">Front End Developer</h2>
+              <p>
+                I am a passionate front-end developer with a love for creating
+                visually appealing and intuitive user interfaces. My journey in
+                web development began with a fascination for turning ideas into
+                interactive and responsive digital experiences.In my coding
+                journey, I've mastered the art of HTML, CSS, and JavaScript,
+                constantly exploring the latest frameworks and libraries to
+                enhance my skill set.
+              </p>
+            </div>
+          </div>
+          <div class="card mx-2 shadow w-lg-50">
+            <div class="card-body border-none">
+              <h2 class="card-subtitle my-3">Back End Developer</h2>
+              <p>
+                Iam a dedicated back-end developer fueled by a passion for
+                Python and the art of crafting robust and scalable server-side
+                solutions.My journey in back-end development started with a
+                curiosity about how web applications function behind the scenes.
+                Over the years, I've honed my skills in Python, utilizing its
+                versatility to build powerful applications, web services, and
+                APIs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---------------END OF SERVICES ----------------------->
+      <!---------------PORTFOLIO ----------------------->
+      <section class="portfolio text-center" id="portfolios">
+        <h1 class="pt-5">PORTFOLIO</h1>
+        <h4 class="mb-5">My Recent Works</h4>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 my-2">
+              <img
+                src="./assets/images/project1.png"
+                class="w-100 mt-4-lg rounded shadow"
+              />
+            </div>
+            <div class="col-lg-4 my-2">
+              <img
+                src="./assets/images/project2.png"
+                class="w-100 mt-4-lg rounded shadow"
+              />
+            </div>
+            <div class="col-lg-4 my-2">
+              <img
+                src="./assets/images/project3.png"
+                class="w-100 rounded shadow"
+              />
+            </div>
+            <div class="col-lg-4 my-2">
+              <img
+                src="./assets/images/project4.png"
+                class="w-100 rounded shadow"
+              />
+            </div>
+            <div class="col-lg-4 my-2">
+              <img
+                src="./assets/images/project 5.png"
+                class="w-100 rounded shadow"
+              />
+            </div>
+            <div class="col-lg-4 my-2">
+              <img
+                src="./assets/images/project 6.png"
+                class="w-100 mt-4-lg rounded shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---------------END OF PORTFOLIO ----------------------->
+      <!--------------- CONTACT ME ----------------------->
+      <section class="contact" id="contactMe">
+        <h1 class="text-center pt-5">CONTACT ME</h1>
+        <h5 class="text-center mb-5">GET IN TOUCH</h5>
+        <div
+          class="container d-lg-flex justify-content-center align-items-center"
+        >
+          <div class="details mx-2 d-block">
+            <i class="bi bi-envelope fs-4">
+              <span class="fs-5 mx-2">athirakolathery2002@gmail.com</span></i
+            ><br />
+            <i class="bi bi-telephone fs-4">
+              <span class="fs-5 mx-2">+91 9778326311</span></i
+            ><br />
+            <i class="bi bi-geo-alt fs-4">
+              <span class="fs-5 mx-2"
+                >Kolathery House Cherai PO 683514 Ernakulam</span
+              >
+            </i>
+          </div>
+          <div class="form mx-2">
+            <form action="#" method="get">
+              <div class="row">
+                <div class="col-6 my-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                    name="Name"
+                  />
+                </div>
+
+                <div class="col-6 my-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email Address"
+                    name="email"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 my-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="subject"
+                    name="subject"
+                  />
+                </div>
+
+                <div class="col-12 my-2">
+                  <textarea
+                    class="form-control"
+                    placeholder="Comments"
+                    name="comment"
+                  ></textarea>
+                </div>
+                <div class="px-3 my-3">
+                  <button class="btn btn-success">
+                    SEND <i class="bi bi-send text-white"></i>
+                  </button>
+                </div>
+                <!-- <div class="modal" id="information">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        Your response has been submitted
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-success"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!---------------END OF CONTACT ME ----------------------->
+    </main>
+
+    <footer class="border-top">
+      <section class="footer text-center pt-5" id="footers">
+        <i class="bi bi-c-circle fs-4"
+          ><span class="fs-6 mx-2"
+            >Copyright Athira . All Rights Reserved</span
+          ></i
+        >
+        <div class="pb-3"><p>Developed By ATHIRA K S</p></div>
+      </section>
+      <div
+        class="position-fixed bottom-0 end-0 mx-2 shadow"
+        style="color: var(--heading-color)"
+      >
+        <a href="#home"><i class="bi bi-arrow-up-circle-fill fs-2"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
